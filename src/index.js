@@ -16,7 +16,7 @@ const link = {
 
 const Navbar = () => {
   <div>
-  <NavLink 
+  <NavLink
     to='/'
     exact
     style={link}
@@ -43,9 +43,9 @@ const Navbar = () => {
 }
 
 const Home = () => <h1>Home!</h1>;
- 
+
 const About = () => <h1>This is my about component!</h1>;
- 
+
 const Login = () =>
   <form>
     <h1>Login</h1>
@@ -59,7 +59,7 @@ const Login = () =>
     </div>
     <input type="submit" value="Login" />
   </form>;
-  
+
 ReactDOM.render((
   <Router>
     <>
